@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Day38-Responsive Testimonial Slider using HTML CSS and JavaScript
+    </title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h2 class="our-reviews">Our Reviews</h2>
+      <div class="main-div">
+        <div class="img-container">
+          <img src="./images/client1.png" alt="" id="img" />
+        </div>
+
+        <div class="main-content">
+          <h2 class="author" id="author">CodeWithMrX</h2>
+          <p class="job" id="job">Programmer</p>
+          <p class="text" id="text">
+            MrX is also known as CodeWithMrX on youtube. He has a hude
+            subscribers youtube channel. He had done his study in B.Tech
+            Computer Science.
+          </p>
+          <div class="btnContainer">
+            <i class="fa-solid fa-angle-left" id="prev-btn"></i>
+            <i class="fa-solid fa-angle-right" id="next-btn"></i>
+          </div>
+          <button class="randomBtn" id="randomBtn">Random review</button>
+        </div>
+      </div>
+    </div>
+
+    <footer>&copy; Modified by Azier Media</footer>
+  </body>
+  <script src="script.js"></script>
+</html>
